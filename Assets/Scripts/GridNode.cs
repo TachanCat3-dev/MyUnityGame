@@ -7,6 +7,10 @@ public class GridNode
     public Vector3 worldPosition;
     public bool isWalkable;
 
+
+    // 快捷属性：判断格子上有没有人
+    //public bool IsOccupied => occupiedUnit != null;
+
     // A* 寻路专用参数
     public int gCost;
     public int hCost;
